@@ -1,0 +1,51 @@
+Package: com.rostane.showcase
+Name: Showcase (iOS 12-14)
+Version: 1.0~beta1-1
+Architecture: iphoneos-arm
+Section: Utilities
+Maintainer: Amine Rostane <amine.rostane@outlook.com>
+Author: Amine Rostane <amine.rostane@outlook.com>
+Depends: firmware (>= 12.0), libssl3 (>= 3.2.1), uikittools
+Conflicts: ch.ringwald.btstack
+Replaces: ch.ringwald.btstack (<= 1.1-1)
+Homepage: https://github.com/amineross/showcase
+Icon: https://aminerostane.com/repo/icons/showcase.png
+Depiction: https://aminerostane.com/repo/depictions/cydia.html
+SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
+Description: Software wireless CarPlay receiver for rootful jailbreaks.
+ Showcase turns a jailbroken iPad into a pure-software wireless CarPlay
+ receiver. This package targets rootful iOS 12-14 jailbreaks and installs
+ under the classic root filesystem layout.
+ .
+ Tested on iPad Air 1 cellular, iOS 12.5.8, rootful jailbreak layout.
+Filename: debs/com.rostane.showcase_1.0~beta1-1_iphoneos-arm.deb
+Size: 1612070
+MD5sum: cb28f6034ff8fc7e50e2a59e934aa449
+SHA1: ca5aff74dd4e6d8bf84b4caaaf3da86103016b3f
+SHA256: f86ea794ce9397c1aaf88f1fa69947bbf598a5ca04143eea505ad1d251fb22e1
+
+Package: com.rostane.showcase
+Name: Showcase (iOS 15-17)
+Version: 1.0~beta1-1
+Architecture: iphoneos-arm64
+Section: Utilities
+Maintainer: Amine Rostane <amine.rostane@outlook.com>
+Author: Amine Rostane <amine.rostane@outlook.com>
+Depends: firmware (>= 15.0), libssl3 (>= 3.0.0), uikittools
+Conflicts: ch.ringwald.btstack
+Replaces: ch.ringwald.btstack (<= 1.1-1)
+Homepage: https://github.com/amineross/showcase
+Icon: https://aminerostane.com/repo/icons/showcase.png
+Depiction: https://aminerostane.com/repo/depictions/cydia.html
+SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
+Description: Software wireless CarPlay receiver for rootless jailbreaks.
+ Showcase turns a jailbroken cellular iPad into a pure-software wireless
+ CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
+ installs under /var/jb with iphoneos-arm64 package metadata.
+ .
+ Tested by the community on iPadOS 17 rootless environments. Still beta.
+Filename: debs/com.rostane.showcase_1.0~beta1-1_iphoneos-arm64.deb
+Size: 1520372
+MD5sum: 2bf79b39c893aff5cd0d80efb4b9510c
+SHA1: 866fe341e6fe90ce8e2fc868e24ee98679820630
+SHA256: 6ab729b3066926dcbe65e1c4ed42b5a2eccdc16d52ab11346af3dd1e25970007

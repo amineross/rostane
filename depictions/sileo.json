@@ -54,11 +54,11 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "1.0 beta 1"
+          "title": "1.0 beta 2"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Bundles BTstack runtime files\\n- Bundles the BTstack launchd socket plist required for /tmp/BTstack\\n- Removes dependency on the old Ringwald BTstack package\\n- Adds rootful and rootless package builds\\n- Declares libssl3 runtime dependency"
+          "markdown": "- Fixes rootless launchctl path detection\\n- Signs the bundled BTstack daemon with Bluetooth and IOKit entitlements\\n- Adds scaled iPhone-screen UI support for testing\\n- Keeps rootful and rootless package builds"
         }
       ]
     }

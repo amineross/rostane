@@ -1,6 +1,6 @@
 Package: com.rostane.showcase
 Name: Showcase (iOS 12-14)
-Version: 1.0~beta2-3
+Version: 1.0~beta2-6
 Architecture: iphoneos-arm
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -18,15 +18,15 @@ Description: Software wireless CarPlay receiver for rootful jailbreaks.
  under the classic root filesystem layout.
  .
  Tested on iPad Air 1 cellular, iOS 12.5.8, rootful jailbreak layout.
-Filename: debs/com.rostane.showcase_1.0~beta2-3_iphoneos-arm.deb
-Size: 1614514
-MD5sum: a4156d2032f3a1271c29171297834e03
-SHA1: 2807275b84205a5478794c931a5c98a3c8eab900
-SHA256: 7ccda220c0cca214c3a2aac83f0cd93e263f593479b58d8597b9e92b9a106871
+Filename: debs/com.rostane.showcase_1.0~beta2-6_iphoneos-arm.deb
+Size: 1618070
+MD5sum: 9b103e8724ce4d2169d93b5f1f4d368f
+SHA1: b62d079714dab004868bd3815688c37846f325dd
+SHA256: 7b326338b46a2d1dca845e1fa60bbb414400b5c4cd9edc5eeef7ee106c7e7a64
 
 Package: com.rostane.showcase
 Name: Showcase (iOS 15-17)
-Version: 1.0~beta2-5
+Version: 1.0~beta2-6
 Architecture: iphoneos-arm64
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -43,9 +43,10 @@ Description: Software wireless CarPlay receiver for rootless jailbreaks.
  CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
  installs under /var/jb with iphoneos-arm64 package metadata.
  .
- Rootless support is in active beta testing across iOS 15-17 environments.
-Filename: debs/com.rostane.showcase_1.0~beta2-5_iphoneos-arm64.deb
-Size: 1548690
-MD5sum: 49b2f0d5e23ea18cb38101b29ab3be8d
-SHA1: 7a85a67dd3365e45a19e2b5e11af51d288eb55d4
-SHA256: a7e1c5b37113c8fa1e34511b52aba5fa74fff0bc1f8d3070472557c1e21126a4
+ First officially working rootless build. iPhone-specific UI tweak for
+ the receiver app running on a jailbroken iPhone.
+Filename: debs/com.rostane.showcase_1.0~beta2-6_iphoneos-arm64.deb
+Size: 1544092
+MD5sum: bf1016a20c9359ef146c26d799b9451d
+SHA1: d08dc18e28be9a8274194c612123f9d12239ec87
+SHA256: 5cf4c7890b4553e981db45ce406bed17ac11f8fd0e1b3cc685ac89df3d8bdad7

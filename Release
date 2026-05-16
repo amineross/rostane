@@ -6,17 +6,17 @@ Version: 1.0
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Icon: https://aminerostane.com/repo/CydiaIcon.png
-Date: Sat, 16 May 2026 13:04:14 +0000
+Date: Sat, 16 May 2026 13:43:52 +0000
 Description: Rostane jailbreak package repository
 MD5Sum:
- cef87a205cb49d48b725eac11bbf92d7 2419 Packages
- 7bdb6258e618dc098cd87de0a9a599df 917 Packages.gz
- 4a293c9cf72f38b386e10c6b125bdbd8 1064 Packages.bz2
+ 2e3ac956ae80484e15e707267851ba62 2419 Packages
+ d4959f494e8755b975ed55c75d37bdb3 918 Packages.gz
+ 10a29c5b5fe2d79c02c92b21f9b42036 1077 Packages.bz2
 SHA1:
- f913de966ef35b1aaa5a29525f18e1e1b9ef32a1 2419 Packages
- 08f331e2838b26afd1d518eef9d6c8fc6bf459cf 917 Packages.gz
- 9a1ec8ad575029548f71af6b6a0d15cfb4c7d7d1 1064 Packages.bz2
+ 0a473dc1d7eebb0bb73395df2a75b8eafd3cbc50 2419 Packages
+ 35b825d79f1f57d8d996a80f3f000e2a5066320c 918 Packages.gz
+ f40d8fa3988f39a004d5f0370f69da9f8dcb41c0 1077 Packages.bz2
 SHA256:
- f4e90527fe837f12cebd9b3adc535c12445b30ffa05ce8dca0ebd0e93e1d6883 2419 Packages
- ecfe09f2e910af418e223e1d2d3b787db5ad1a7656fa900eb439cae33bbb67b8 917 Packages.gz
- 7362ff3ac289d84e3be698dfe25c60bec3a9294d9855840aba8c13c2f114e384 1064 Packages.bz2
+ d10177ca18e96775f7e9b1c00f52fc1269e7469e16bcb1a432fac4119c376ad3 2419 Packages
+ 4ad0948ad1d47791c25a0aab11fd96103ba4ad8982222980e9a7ea2278e50ff9 918 Packages.gz
+ d017a55e31d5f2763acc59db90aa3326637b7395c97743dcb13bb760d9baa5cf 1077 Packages.bz2

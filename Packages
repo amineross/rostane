@@ -1,4 +1,31 @@
 Package: com.rostane.showcase
+Name: Showcase (iOS 15-17)
+Version: 1.0~beta2-10
+Architecture: iphoneos-arm64
+Section: Utilities
+Maintainer: Amine Rostane <amine.rostane@outlook.com>
+Author: Amine Rostane <amine.rostane@outlook.com>
+Depends: firmware (>= 15.0), libssl3 (>= 3.0.0), uikittools, ldid
+Conflicts: ch.ringwald.btstack
+Replaces: ch.ringwald.btstack (<= 1.1-1)
+Homepage: https://github.com/amineross/showcase
+Icon: https://aminerostane.com/repo/icons/showcase.png
+Depiction: https://aminerostane.com/repo/depictions/cydia.html
+SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
+Description: Software wireless CarPlay receiver for rootless jailbreaks.
+ Showcase turns a jailbroken cellular iPad into a pure-software wireless
+ CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
+ installs under /var/jb with iphoneos-arm64 package metadata.
+ .
+ First officially working rootless build. iPhone-specific UI tweak for
+ the receiver app running on a jailbroken iPhone.
+Filename: debs/com.rostane.showcase_1.0~beta2-10_iphoneos-arm64.deb
+Size: 1551766
+MD5sum: 6c56c0275992e1ca344e3dd6a7547126
+SHA1: bd8d2cdf7132adc6d8d364b39ffcb45b3e0aa789
+SHA256: 1ca3286019b8f7a8f8e10bef757fdde919bebe103dd308cc7fff81851dfe92ee
+
+Package: com.rostane.showcase
 Name: Showcase (iOS 12-14)
 Version: 1.0~beta2-8
 Architecture: iphoneos-arm
@@ -23,57 +50,3 @@ Size: 1626004
 MD5sum: 533e5fd942b1b99d9d02944dcaa87710
 SHA1: 15ab8948aaf80d004c6c16f036f3492871f75047
 SHA256: d12f17efa714ad2bd904e5401724d5625df63272938fa9a79e0df22aa2ca15f9
-
-Package: com.rostane.showcase
-Name: Showcase (iOS 15-17)
-Version: 1.0~beta2-8
-Architecture: iphoneos-arm64
-Section: Utilities
-Maintainer: Amine Rostane <amine.rostane@outlook.com>
-Author: Amine Rostane <amine.rostane@outlook.com>
-Depends: firmware (>= 15.0), libssl3 (>= 3.0.0), uikittools, ldid
-Conflicts: ch.ringwald.btstack
-Replaces: ch.ringwald.btstack (<= 1.1-1)
-Homepage: https://github.com/amineross/showcase
-Icon: https://aminerostane.com/repo/icons/showcase.png
-Depiction: https://aminerostane.com/repo/depictions/cydia.html
-SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
-Description: Software wireless CarPlay receiver for rootless jailbreaks.
- Showcase turns a jailbroken cellular iPad into a pure-software wireless
- CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
- installs under /var/jb with iphoneos-arm64 package metadata.
- .
- First officially working rootless build. iPhone-specific UI tweak for
- the receiver app running on a jailbroken iPhone.
-Filename: debs/com.rostane.showcase_1.0~beta2-8_iphoneos-arm64.deb
-Size: 1552702
-MD5sum: 49445a18201c926eba34d8c571f69080
-SHA1: 844aef6e211f38445027323b5f642743090fe5f6
-SHA256: acfcb008f67a82df8163796923fa8f5995fb3b830dce09bdf8aecc39fda500ad
-
-Package: com.rostane.showcase
-Name: Showcase (iOS 15-17)
-Version: 1.0~beta2-9
-Architecture: iphoneos-arm64
-Section: Utilities
-Maintainer: Amine Rostane <amine.rostane@outlook.com>
-Author: Amine Rostane <amine.rostane@outlook.com>
-Depends: firmware (>= 15.0), libssl3 (>= 3.0.0), uikittools, ldid
-Conflicts: ch.ringwald.btstack
-Replaces: ch.ringwald.btstack (<= 1.1-1)
-Homepage: https://github.com/amineross/showcase
-Icon: https://aminerostane.com/repo/icons/showcase.png
-Depiction: https://aminerostane.com/repo/depictions/cydia.html
-SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
-Description: Software wireless CarPlay receiver for rootless jailbreaks.
- Showcase turns a jailbroken cellular iPad into a pure-software wireless
- CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
- installs under /var/jb with iphoneos-arm64 package metadata.
- .
- First officially working rootless build. iPhone-specific UI tweak for
- the receiver app running on a jailbroken iPhone.
-Filename: debs/com.rostane.showcase_1.0~beta2-9_iphoneos-arm64.deb
-Size: 1552698
-MD5sum: e6679819d69d34d8f83b9e9aade78d12
-SHA1: 863f01a1d6d8a58e67febaec1941a535ed28f42f
-SHA256: e98df020f4651bd1e685c5e9ae47a41155791402617dcd8a174fc2f9d11a0f94

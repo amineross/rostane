@@ -54,6 +54,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 beta 2-9"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Disables Secure Connections (SC) in the bundled BTstack daemon, fixing Bluetooth authentication failure on BT 4.2+ devices (iPhone 6s and newer)\\n- Root cause: BTstack wrote Write_SC_Host_Support while SSP was off, which Broadcom chips accepted silently but applied incorrectly, causing the remote iPhone to negotiate P-256 SC pairing that then failed at the LMP layer\\n- Forces legacy SSP (P-192 ECDH) for all pairing, which works reliably across all tested controllers\\n- Rootless package only for this release; rootful stays on beta 2-8"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 beta 2-8"
         },
         {

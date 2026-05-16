@@ -1,14 +1,7 @@
-# Rostane APT Repository
+# Rostane Repository
 
-Add this source in Sileo, Cydia, or Zebra.
+APT repository for jailbreak packages by Amine Rostane.
 
-```text
+Add this source in Sileo or Cydia:
+
 https://aminerostane.com/repo
-```
-
-Available packages:
-
-- Showcase for rootful iOS 12-14, `iphoneos-arm`
-- Showcase for rootless iOS 15-17, `iphoneos-arm64`
-
-The package manager selects the build that matches the device architecture.

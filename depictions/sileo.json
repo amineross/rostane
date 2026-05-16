@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Showcase takes over classic Bluetooth while it is running, then restores Apple's bluetoothd when stopped. Beta 2-13 makes Wi-Fi provisioning one-shot per iAP2 session to avoid duplicate 0x5703 state-machine churn."
+          "markdown": "Showcase takes over classic Bluetooth while it is running, then restores Apple's bluetoothd when stopped. Beta 2-14 sends a fresh post-transport 0x5703 after 0x4E0E so Wi-Fi join can arm the CarPlay network phase."
         }
       ]
     },
@@ -52,6 +52,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 beta 2-14"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Separates pre-transport and post-transport Wi-Fi configuration state\\n- Sends a fresh POST-TRANSPORT 0x5703 immediately after 0x4E0E DeviceTransportIdentifierNotification\\n- Still sends a PRE-TRANSPORT compatibility 0x5703 for early 0x5702 requests\\n- Keeps 0x4301 disabled, active multicast mDNS announcements, and bridge100 tcpdump capture\\n- Rootless package only for this release; rootful stays on beta 2-8"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 beta 2-13"

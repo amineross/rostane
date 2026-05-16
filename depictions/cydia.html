@@ -35,11 +35,21 @@
   <h2>Notes</h2>
   <p>
     Showcase takes over classic Bluetooth while active and restores Apple's
-    <code>bluetoothd</code> when stopped. Beta 2-13 makes Wi-Fi provisioning
-    one-shot per iAP2 session to avoid duplicate 0x5703 state-machine churn.
+    <code>bluetoothd</code> when stopped. Beta 2-14 sends a fresh
+    post-transport 0x5703 after 0x4E0E so Wi-Fi join can arm the CarPlay
+    network phase.
   </p>
 
   <h2>Changelog</h2>
+  <h3>1.0 beta 2-14</h3>
+  <ul>
+    <li>Separates pre-transport and post-transport Wi-Fi configuration state.</li>
+    <li>Sends a fresh POST-TRANSPORT 0x5703 immediately after 0x4E0E DeviceTransportIdentifierNotification.</li>
+    <li>Still sends a PRE-TRANSPORT compatibility 0x5703 for early 0x5702 requests.</li>
+    <li>Keeps 0x4301 disabled, active multicast mDNS announcements, and bridge100 tcpdump capture.</li>
+    <li>Rootless package only for this release; rootful stays on beta 2-8.</li>
+  </ul>
+
   <h3>1.0 beta 2-13</h3>
   <ul>
     <li>Sends 0x5703 AccessoryWiFiConfigurationInformation only once per RFCOMM/iAP2 session.</li>

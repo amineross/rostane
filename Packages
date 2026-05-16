@@ -1,6 +1,6 @@
 Package: com.rostane.showcase
 Name: Showcase (iOS 15-17)
-Version: 1.0~beta2-11
+Version: 1.0~beta2-12
 Architecture: iphoneos-arm64
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -19,11 +19,11 @@ Description: Software wireless CarPlay receiver for rootless jailbreaks.
  .
  First officially working rootless build. iPhone-specific UI tweak for
  the receiver app running on a jailbroken iPhone.
-Filename: debs/com.rostane.showcase_1.0~beta2-11_iphoneos-arm64.deb
-Size: 1557918
-MD5sum: ec30e8cb9d5668ce86c3d8b704d33cdb
-SHA1: 41c4c245bc880d22ca8dbebbe5b5e47fccc82ce2
-SHA256: b39d98c7a1e7d248e84b28eea072e94761d6e950f833c81e209d187596a19675
+Filename: debs/com.rostane.showcase_1.0~beta2-12_iphoneos-arm64.deb
+Size: 1560400
+MD5sum: d4d1d339748210b390511a9bc3329ca7
+SHA1: 5abd6a79a9d559e19ac010b4f5c87237e2d57d5d
+SHA256: f0e2cad9aa4361c127c01323c460e6bfe3ad5daa31a2b5e407b42b2713fddb6a
 
 Package: com.rostane.showcase
 Name: Showcase (iOS 12-14)

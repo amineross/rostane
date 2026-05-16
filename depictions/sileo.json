@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Showcase takes over classic Bluetooth while it is running, then restores Apple's bluetoothd when stopped. Beta 2-7 adds one-tap diagnostic export, default BTstack packet logging, and a rootless pairing cleanup for Dopamine testers."
+          "markdown": "Showcase takes over classic Bluetooth while it is running, then restores Apple's bluetoothd when stopped. Beta 2-8 fixes a rootless Bluetooth authentication failure seen after SDP on some tester devices."
         }
       ]
     },
@@ -52,6 +52,17 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 beta 2-8"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Changes the bundled rootless BTdaemon SSP persona to DisplayYesNo with dedicated bonding, matching a display-capable CarPlay accessory instead of a NoInputNoOutput peer\\n- Targets the Bluetooth authentication failure seen after SDP, where the iPhone returned Simple Pairing Complete status 0x05 before RFCOMM opened\\n- Keeps BTdaemon auto-accept enabled, so testers do not need to type a pairing code\\n- Improves Send Log package-state capture by using dpkg-query directly on rootless systems\\n- Keeps the iOS 12-14 rootful package and the iOS 15-17 rootless package on beta 2-8"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 beta 2-7"

@@ -35,11 +35,20 @@
   <h2>Notes</h2>
   <p>
     Showcase takes over classic Bluetooth while active and restores Apple's
-    <code>bluetoothd</code> when stopped. Beta 2-12 sends real multicast
-    AirPlay and RAOP mDNS announcements during the Wi-Fi handoff window.
+    <code>bluetoothd</code> when stopped. Beta 2-13 makes Wi-Fi provisioning
+    one-shot per iAP2 session to avoid duplicate 0x5703 state-machine churn.
   </p>
 
   <h2>Changelog</h2>
+  <h3>1.0 beta 2-13</h3>
+  <ul>
+    <li>Sends 0x5703 AccessoryWiFiConfigurationInformation only once per RFCOMM/iAP2 session.</li>
+    <li>Suppresses duplicate 0x5702 Wi-Fi config requests after the first 0x5703 has been sent.</li>
+    <li>Adds state logs around 0x5702, 0x4E0D, 0x4E0E, and duplicate suppression for tester pcaps.</li>
+    <li>Keeps 0x4301 disabled and keeps the beta 2-12 active multicast mDNS announcer.</li>
+    <li>Rootless package only for this release; rootful stays on beta 2-8.</li>
+  </ul>
+
   <h3>1.0 beta 2-12</h3>
   <ul>
     <li>Sends active multicast mDNS announcements for _airplay._tcp and _raop._tcp on 224.0.0.251:5353 during the handoff window.</li>

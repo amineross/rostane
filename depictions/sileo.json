@@ -86,6 +86,10 @@
         },
         {
           "class": "DepictionMarkdownView",
+          "markdown": "Wireless handoff fix: omit unverified Wi-Fi channel/BSSID from 0x5703, respond to repeated Wi-Fi config requests, and add stuck-handoff diagnostics."
+        },
+        {
+          "class": "DepictionMarkdownView",
           "markdown": "Compatibility testing is ongoing across devices and jailbreak environments."
         },
         {

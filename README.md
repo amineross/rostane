@@ -6,9 +6,7 @@ Add this source in Sileo, Cydia, or Zebra.
 https://aminerostane.com/repo
 ```
 
-Available packages:
-
-- Showcase for rootful iOS 12-14, `iphoneos-arm`
-- Showcase for rootless iOS 15-17, `iphoneos-arm64`
+- Showcase for rootful jailbreaks on iOS 12 or newer, `iphoneos-arm`
+- Showcase for rootless jailbreaks on iOS 12 or newer, `iphoneos-arm64`
 
 The package manager selects the build that matches the device architecture.

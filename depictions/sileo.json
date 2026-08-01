@@ -13,22 +13,22 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "A pure-software wireless CarPlay receiver for jailbroken cellular iPads. Showcase lets a supported iPad appear as a CarPlay car, receives the encrypted H.264 screen stream, and sends touch input back to the iPhone."
+          "markdown": "Turn a jailbroken cellular iPhone or iPad into a wireless CarPlay receiver. Showcase receives CarPlay video and audio, then sends touch input to the connected iPhone."
         },
         {
           "class": "DepictionTableTextView",
           "title": "Rootful package",
-          "text": "iOS 12-14, iphoneos-arm"
+          "text": "iOS 12 or newer, iphoneos-arm"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Rootless package",
-          "text": "iOS 15-17, iphoneos-arm64"
+          "text": "iOS 12 or newer, iphoneos-arm64"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Author-tested device",
-          "text": "iPad Air 1 cellular, iOS 12.5.8"
+          "title": "Tested receivers",
+          "text": "iPad Air 1 on iOS 12.5.8 and iPhone 7 on iOS 15.8.4"
         },
         {
           "class": "DepictionSubheaderView",
@@ -36,15 +36,15 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Cellular iPad with Personal Hotspot available."
+          "markdown": "Cellular iPhone or iPad with Personal Hotspot available."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Rootful iOS 12-14 or rootless iOS 15-17."
+          "markdown": "iOS 12 or newer with a rootful or rootless jailbreak."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Bundled BTstack runtime files and OpenSSL libssl3."
+          "markdown": "Bundled BTstack runtime files and embedded CarPlay cryptography. No OpenSSL package required."
         },
         {
           "class": "DepictionSubheaderView",
@@ -57,6 +57,14 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "Diagnostics and packet dumps are off by default. Enable them from the info button only when collecting a report."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Open Showcase while the receiver still has internet access. Beta 3 prepares BAA authentication before Personal Hotspot starts."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Tap with three fingers during CarPlay to pause input and reveal the stop and info controls. Tap again with three fingers to resume."
         }
       ]
     },
@@ -66,11 +74,50 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 beta 3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Routes navigation, call, radio, and media audio through the receiver."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Selects an HD stream from native aspect ratio and measured hardware capability."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Schedules H.264 frames on the sender timeline and drops stale work after a stall."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keeps touch reports responsive during motion."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Restores paired sessions after reconnects and app lifecycle changes."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds a named Showcase vehicle app and removes the stray ETC indicator."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Reports unsupported Bluetooth hardware instead of stalling during setup."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Embeds CarPlay cryptography and removes the OpenSSL package dependency."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 beta 2"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Experimental Dopamine/rootless build for iOS 15-17, including the patched BTstack runtime."
+          "markdown": "Adds a Dopamine/rootless build with its patched BTstack runtime."
         },
         {
           "class": "DepictionMarkdownView",
@@ -78,7 +125,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Keeps the rootful iOS 12-14 build available and updates both packages to the same beta 2 line."
+          "markdown": "Updates rootful and rootless packages to the same beta 2 line."
         },
         {
           "class": "DepictionMarkdownView",
@@ -86,7 +133,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Wireless handoff fix: omit unverified Wi-Fi channel/BSSID from 0x5703, respond to repeated Wi-Fi config requests, and add stuck-handoff diagnostics."
+          "markdown": "Fixes wireless handoff by omitting unverified Wi-Fi channel and BSSID data from 0x5703. Showcase also responds to repeated Wi-Fi configuration requests and logs stuck handoffs."
         },
         {
           "class": "DepictionMarkdownView",

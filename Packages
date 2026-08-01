@@ -1,52 +1,52 @@
 Package: com.rostane.showcase
-Name: Showcase (iOS 12-14)
-Version: 1.0~beta2-19
+Name: Showcase (Rootful)
+Version: 1.0~beta3
 Architecture: iphoneos-arm
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
 Author: Amine Rostane <amine.rostane@outlook.com>
-Depends: firmware (>= 12.0), libssl3 (>= 3.2.1), uikittools
+Depends: firmware (>= 12.0), uikittools
 Conflicts: ch.ringwald.btstack
 Replaces: ch.ringwald.btstack (<= 1.1-1)
 Homepage: https://github.com/amineross/showcase
 Icon: https://aminerostane.com/repo/icons/showcase.png
 Depiction: https://aminerostane.com/repo/depictions/cydia.html
 SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
-Description: Software wireless CarPlay receiver for rootful jailbreaks.
- Showcase turns a jailbroken iPad into a pure-software wireless CarPlay
- receiver. This package targets rootful iOS 12-14 jailbreaks and installs
- under the classic root filesystem layout.
+Description: Wireless CarPlay receiver for rootful jailbreaks.
+ Showcase turns a jailbroken cellular iPhone or iPad into a wireless CarPlay
+ receiver. This package uses the rootful layout and supports iOS 12 or newer.
  .
- Tested on iPad Air 1 cellular, iOS 12.5.8, rootful jailbreak layout.
-Filename: debs/com.rostane.showcase_1.0~beta2-19_iphoneos-arm.deb
-Size: 1642984
-MD5sum: 851e3956fbc1dd2b4bf5ce0e12234f5d
-SHA1: 9988bd4a630928406e6077fff127c367d569c847
-SHA256: 2776bc1db288c3233118fe2283c3bfddca17b2c4b6c748b942680a352e7bf3e6
+ Beta 3 adds receiver audio, hardware-aware HD video, responsive touch,
+ lifecycle recovery, a Showcase vehicle app, and BTstack compatibility checks.
+Filename: debs/com.rostane.showcase_1.0~beta3_iphoneos-arm.deb
+Size: 1797228
+MD5sum: 676fe2a690f477d02147423bd85a5eeb
+SHA1: c6ce5332c04378f0f39f9756e18b8f9289f20d9a
+SHA256: 78a541755f4933bafa643dc810563a6d651331b6f9d3decf01fd1fe697095fe3
 
 Package: com.rostane.showcase
-Name: Showcase (iOS 15-17)
-Version: 1.0~beta2-19
+Name: Showcase (Rootless)
+Version: 1.0~beta3
 Architecture: iphoneos-arm64
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
 Author: Amine Rostane <amine.rostane@outlook.com>
-Depends: firmware (>= 15.0), libssl3 (>= 3.0.0), uikittools, ldid, tcpdump
+Depends: firmware (>= 12.0), uikittools, ldid
 Conflicts: ch.ringwald.btstack
 Replaces: ch.ringwald.btstack (<= 1.1-1)
 Homepage: https://github.com/amineross/showcase
 Icon: https://aminerostane.com/repo/icons/showcase.png
 Depiction: https://aminerostane.com/repo/depictions/cydia.html
 SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
-Description: Software wireless CarPlay receiver for rootless jailbreaks.
- Showcase turns a jailbroken cellular iPad into a pure-software wireless
- CarPlay receiver. This package targets rootless iOS 15-17 jailbreaks and
- installs under /var/jb with iphoneos-arm64 package metadata.
+Description: Wireless CarPlay receiver for rootless jailbreaks.
+ Showcase turns a jailbroken cellular iPhone or iPad into a wireless CarPlay
+ receiver. This package uses the rootless layout under /var/jb and supports
+ iOS 12 or newer.
  .
- First officially working rootless build. iPhone-specific UI tweak for
- the receiver app running on a jailbroken iPhone.
-Filename: debs/com.rostane.showcase_1.0~beta2-19_iphoneos-arm64.deb
-Size: 1569592
-MD5sum: 4679664a9a5b028dccab146c401fa45b
-SHA1: 2c79f908a500f3708800c4596654b0405199592d
-SHA256: e7a16472b10fb9938845a02fe2b1cc8749fa4a80764274238ed3a5965741679d
+ Beta 3 adds receiver audio, hardware-aware HD video, responsive touch,
+ lifecycle recovery, a Showcase vehicle app, and BTstack compatibility checks.
+Filename: debs/com.rostane.showcase_1.0~beta3_iphoneos-arm64.deb
+Size: 1726464
+MD5sum: 104fe845c9206ad588eb170412a8af9e
+SHA1: 843f8fafcae3445bfc57e79935f85e232edfbc25
+SHA256: e829c0c18814d6288e647aa349cb2db2e9b6727d962f7cde57d0c421f7d87781

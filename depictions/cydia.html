@@ -14,12 +14,12 @@
 </head>
 <body>
   <h1>Showcase</h1>
-  <p>A pure-software wireless CarPlay receiver for jailbroken cellular iPads.</p>
+  <p>Turn a jailbroken cellular iPhone or iPad into a wireless CarPlay receiver.</p>
 
   <h2>Compatibility</h2>
   <ul>
-    <li>Rootful build for iOS 12-14, packaged as <code>iphoneos-arm</code>.</li>
-    <li>Rootless build for iOS 15-17 on Dopamine and palera1n rootless, packaged as <code>iphoneos-arm64</code>.</li>
+    <li>iOS 12 or newer.</li>
+    <li>Rootful package uses <code>iphoneos-arm</code>. Rootless package uses <code>iphoneos-arm64</code>.</li>
     <li>Requires Personal Hotspot support through an active SIM or carrier provisioning.</li>
   </ul>
 
@@ -29,15 +29,36 @@
     <code>bluetoothd</code> when stopped. Diagnostics and packet dumps are off
     by default. Enable them from the info button only when collecting a report.
   </p>
+  <p>
+    Beta 3 prepares the Apple authentication certificate before Personal
+    Hotspot starts. Open Showcase while the receiver still has internet
+    access and wait for the Start button.
+  </p>
+  <p>
+    Tap with three fingers during CarPlay to pause input and reveal the stop
+    and info controls. Tap with three fingers again to resume input.
+  </p>
 
   <h2>Changelog</h2>
+  <h3>1.0 beta 3</h3>
+  <ul>
+    <li>Routes navigation, call, radio, and media audio through the receiver.</li>
+    <li>Selects an HD stream from native aspect ratio and measured hardware capability.</li>
+    <li>Schedules H.264 frames on the sender timeline and drops stale work after a stall.</li>
+    <li>Keeps touch reports responsive during motion.</li>
+    <li>Restores paired sessions after reconnects and app lifecycle changes.</li>
+    <li>Adds a named Showcase vehicle app and removes the stray ETC indicator.</li>
+    <li>Reports unsupported Bluetooth hardware instead of stalling during setup.</li>
+    <li>Embeds CarPlay cryptography and removes the OpenSSL package dependency.</li>
+  </ul>
+
   <h3>1.0 beta 2</h3>
   <ul>
-    <li>Experimental Dopamine/rootless build for iOS 15-17 with the patched BTstack runtime.</li>
+    <li>Added a Dopamine/rootless build with its patched BTstack runtime.</li>
     <li>iPhone-sized UI support for testing on smaller screens.</li>
-    <li>Rootful iOS 12-14 and rootless iOS 15-17 packages now share the same beta 2 line.</li>
+    <li>Rootful and rootless packages share the same beta 2 line.</li>
     <li>Opt-in diagnostics with log export, network dump export, and clear logs/dumps controls.</li>
-    <li>Wireless handoff fix: omit unverified Wi-Fi channel/BSSID from 0x5703, respond to repeated Wi-Fi config requests, and add stuck-handoff diagnostics.</li>
+    <li>Fixes wireless handoff by omitting unverified Wi-Fi channel and BSSID data from 0x5703. Showcase also responds to repeated Wi-Fi configuration requests and logs stuck handoffs.</li>
     <li>Compatibility testing is ongoing across devices and jailbreak environments.</li>
   </ul>
 

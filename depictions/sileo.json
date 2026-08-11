@@ -27,6 +27,11 @@
         },
         {
           "class": "DepictionTableTextView",
+          "title": "Rootless Bluetooth",
+          "text": "Legacy UART or Apple ConvergedIPC/Skywalk, selected at runtime"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "Tested receivers",
           "text": "iPad Air 1 on iOS 12.5.8 and iPhone 7 on iOS 15.8.4"
         },
@@ -72,6 +77,25 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 beta 3-1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds Apple ConvergedIPC/Skywalk HCI and ACL support."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keeps the legacy UART backend for existing receivers."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keeps the display cutout away from CarPlay controls on modern iPhones."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 beta 3"

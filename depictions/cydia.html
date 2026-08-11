@@ -20,6 +20,7 @@
   <ul>
     <li>iOS 12 or newer.</li>
     <li>Rootful package uses <code>iphoneos-arm</code>. Rootless package uses <code>iphoneos-arm64</code>.</li>
+    <li>Rootless beta 3-1 selects legacy UART or Apple ConvergedIPC/Skywalk from live hardware properties.</li>
     <li>Requires Personal Hotspot support through an active SIM or carrier provisioning.</li>
   </ul>
 
@@ -40,6 +41,13 @@
   </p>
 
   <h2>Changelog</h2>
+  <h3>1.0 beta 3-1</h3>
+  <ul>
+    <li>Adds Apple ConvergedIPC/Skywalk HCI and ACL support.</li>
+    <li>Keeps the legacy UART backend for existing receivers.</li>
+    <li>Keeps the display cutout away from CarPlay controls on modern iPhones.</li>
+  </ul>
+
   <h3>1.0 beta 3</h3>
   <ul>
     <li>Routes navigation, call, radio, and media audio through the receiver.</li>

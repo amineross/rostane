@@ -1,3 +1,47 @@
+Package: com.rostane.share
+Name: Share
+Version: 1.0~beta1
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: Amine Rostane <amine.rostane@outlook.com>
+Author: Amine Rostane <amine.rostane@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Homepage: https://github.com/amineross/share
+Icon: https://aminerostane.com/repo/icons/share.png
+Depiction: https://aminerostane.com/repo/depictions/share.html
+SileoDepiction: https://aminerostane.com/repo/depictions/share.json
+Description: Personal Hotspot without a SIM.
+ Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.
+ Install it, open Settings and you should see Personal Hotspot available.
+ 5 GHz automatically on supported hardware.
+Filename: debs/com.rostane.share_1.0~beta1_iphoneos-arm.deb
+Size: 28246
+MD5sum: bdf66c8f23df2579774b83887bb056e4
+SHA1: bb2291da603ecf710aa6bbb2b54cd764f77ec0be
+SHA256: 855fecfa730981b0dd85a769dfed098ab70b26fd7b1b71e0997243bf1d37a60a
+
+Package: com.rostane.share
+Name: Share
+Version: 1.0~beta1
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Amine Rostane <amine.rostane@outlook.com>
+Author: Amine Rostane <amine.rostane@outlook.com>
+Depends: firmware (>= 12.0), mobilesubstrate
+Homepage: https://github.com/amineross/share
+Icon: https://aminerostane.com/repo/icons/share.png
+Depiction: https://aminerostane.com/repo/depictions/share.html
+SileoDepiction: https://aminerostane.com/repo/depictions/share.json
+Description: Personal Hotspot without a SIM.
+ Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.
+ Install it, open Settings and you should see Personal Hotspot available.
+ 5 GHz automatically on supported hardware.
+Filename: debs/com.rostane.share_1.0~beta1_iphoneos-arm64.deb
+Size: 28292
+MD5sum: f2c93958becd1b1b256ba970199752cb
+SHA1: 035850a8527cc4a3fcc6765dcdd1c2d6e68cb642
+SHA256: f0125afc73f572d8517a61cf0060575b5e1d0a80e9c1611c1dcbf7dd84f1dfe5
+
 Package: com.rostane.showcase
 Name: Showcase (Rootless)
 Version: 1.0~beta3-1

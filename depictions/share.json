@@ -1,0 +1,46 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#000000",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.\n\nInstall it, open Settings and you should see Personal Hotspot available.\n\n5 GHz automatically on supported hardware."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS",
+          "text": "12 and newer"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Jailbreak",
+          "text": "Rootful or rootless"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source code",
+          "action": "https://github.com/amineross/share"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "First release."
+        }
+      ]
+    }
+  ]
+}

@@ -43,35 +43,8 @@ SHA1: 035850a8527cc4a3fcc6765dcdd1c2d6e68cb642
 SHA256: f0125afc73f572d8517a61cf0060575b5e1d0a80e9c1611c1dcbf7dd84f1dfe5
 
 Package: com.rostane.showcase
-Name: Showcase (Rootless)
-Version: 1.0~beta3-1
-Architecture: iphoneos-arm64
-Section: Utilities
-Maintainer: Amine Rostane <amine.rostane@outlook.com>
-Author: Amine Rostane <amine.rostane@outlook.com>
-Depends: firmware (>= 12.0), uikittools, ldid
-Conflicts: ch.ringwald.btstack
-Replaces: ch.ringwald.btstack (<= 1.1-1)
-Homepage: https://github.com/amineross/showcase
-Icon: https://aminerostane.com/repo/icons/showcase.png
-Depiction: https://aminerostane.com/repo/depictions/cydia.html
-SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
-Description: Wireless CarPlay receiver for rootless jailbreaks.
- Showcase turns a jailbroken cellular iPhone or iPad into a wireless CarPlay
- receiver. This package uses the rootless layout under /var/jb and supports
- iOS 12 or newer.
- .
- Beta 3-1 adds Apple ConvergedIPC/Skywalk Bluetooth support and keeps the
- display cutout away from CarPlay controls on modern iPhones.
-Filename: debs/com.rostane.showcase_1.0~beta3-1_iphoneos-arm64.deb
-Size: 1732532
-MD5sum: 3e7b1b36acdce915314e11103d290c4d
-SHA1: 66f99c858e46b3fc0672af3803b4d78331190c80
-SHA256: 5b88471db88c103a6cfa97c61c0f6bb5fd26c8b9f0a01dabfeb5e8cb551af902
-
-Package: com.rostane.showcase
 Name: Showcase (Rootful)
-Version: 1.0~beta3
+Version: 1.0~beta4-1
 Architecture: iphoneos-arm
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -84,20 +57,20 @@ Icon: https://aminerostane.com/repo/icons/showcase.png
 Depiction: https://aminerostane.com/repo/depictions/cydia.html
 SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
 Description: Wireless CarPlay receiver for rootful jailbreaks.
- Showcase turns a jailbroken cellular iPhone or iPad into a wireless CarPlay
+ Showcase turns a jailbroken iPhone or iPad into a wireless CarPlay
  receiver. This package uses the rootful layout and supports iOS 12 or newer.
  .
- Beta 3 adds receiver audio, hardware-aware HD video, responsive touch,
- lifecycle recovery, a Showcase vehicle app, and BTstack compatibility checks.
-Filename: debs/com.rostane.showcase_1.0~beta3_iphoneos-arm.deb
-Size: 1797228
-MD5sum: 676fe2a690f477d02147423bd85a5eeb
-SHA1: c6ce5332c04378f0f39f9756e18b8f9289f20d9a
-SHA256: 78a541755f4933bafa643dc810563a6d651331b6f9d3decf01fd1fe697095fe3
+ Beta 4 brings cleaner screens, a tappable sound picker and automatic
+ Personal Hotspot.
+Filename: debs/com.rostane.showcase_1.0~beta4-1_iphoneos-arm.deb
+Size: 1841664
+MD5sum: fe38c6ac083cd5a7ff0b1f4ab4dc7e20
+SHA1: 9b1ada56c0dc634d74f1339ee0789205b06a6265
+SHA256: 2c47590a57e000e2e723b62e68c7574184a350cfef8fe21b9546a15072a567bf
 
 Package: com.rostane.showcase
 Name: Showcase (Rootless)
-Version: 1.0~beta3
+Version: 1.0~beta4-1
 Architecture: iphoneos-arm64
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -110,14 +83,14 @@ Icon: https://aminerostane.com/repo/icons/showcase.png
 Depiction: https://aminerostane.com/repo/depictions/cydia.html
 SileoDepiction: https://aminerostane.com/repo/depictions/sileo.json
 Description: Wireless CarPlay receiver for rootless jailbreaks.
- Showcase turns a jailbroken cellular iPhone or iPad into a wireless CarPlay
+ Showcase turns a jailbroken iPhone or iPad into a wireless CarPlay
  receiver. This package uses the rootless layout under /var/jb and supports
  iOS 12 or newer.
  .
- Beta 3 adds receiver audio, hardware-aware HD video, responsive touch,
- lifecycle recovery, a Showcase vehicle app, and BTstack compatibility checks.
-Filename: debs/com.rostane.showcase_1.0~beta3_iphoneos-arm64.deb
-Size: 1726464
-MD5sum: 104fe845c9206ad588eb170412a8af9e
-SHA1: 843f8fafcae3445bfc57e79935f85e232edfbc25
-SHA256: e829c0c18814d6288e647aa349cb2db2e9b6727d962f7cde57d0c421f7d87781
+ Beta 4 brings cleaner screens, a tappable sound picker and automatic
+ Personal Hotspot.
+Filename: debs/com.rostane.showcase_1.0~beta4-1_iphoneos-arm64.deb
+Size: 1776232
+MD5sum: c5375c901abd7d1127148327e59229a1
+SHA1: 82e9719926028064c036ff188cffd80896798b8b
+SHA256: c407b634df1b8bea7a290c277898e8d2605ea58a688d2c6921ab8e64c5468fb6

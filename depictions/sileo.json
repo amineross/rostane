@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Turn a jailbroken cellular iPhone or iPad into a wireless CarPlay receiver. Showcase receives CarPlay video and audio, then sends touch input to the connected iPhone."
+          "markdown": "Turn a jailbroken iPhone or iPad into a wireless CarPlay receiver. Showcase receives CarPlay video and audio, then sends touch input to the connected iPhone."
         },
         {
           "class": "DepictionTableTextView",
@@ -41,7 +41,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Cellular iPhone or iPad with Personal Hotspot available."
+          "markdown": "An iPhone or iPad with Personal Hotspot."
         },
         {
           "class": "DepictionMarkdownView",
@@ -61,15 +61,15 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Diagnostics and packet dumps are off by default. Enable them from the info button only when collecting a report."
+          "markdown": "Diagnostics and packet dumps are off by default. Enable them in Settings, under Troubleshooting, only when collecting a report."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Open Showcase while the receiver still has internet access. Beta 3 prepares BAA authentication before Personal Hotspot starts."
+          "markdown": "Open Showcase while the receiver still has internet access. Showcase prepares BAA authentication before Personal Hotspot starts."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Tap with three fingers during CarPlay to pause input and reveal the stop and info controls. Tap again with three fingers to resume."
+          "markdown": "Tap with three fingers during CarPlay to reveal the stop and settings controls. Tap anywhere to return to CarPlay."
         }
       ]
     },
@@ -77,6 +77,77 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 4"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Starts Personal Hotspot by itself. If iOS refuses, Showcase asks you to turn it on in Settings."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Removes the 5 GHz hotspot option. The hotspot uses the band iOS chooses."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Choose where sound plays by tapping this device or the CarPlay sender on the Sound page."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Cleaner screens with shorter connection steps and no small text."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Tap anywhere on the dimmed screen to return to CarPlay."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 beta 3-2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Starts Personal Hotspot by itself when you tap Start CarPlay. No trip to Settings."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "On older devices, runs the CarPlay hotspot on 5 GHz instead of crowded 2.4 GHz, with automatic fallback."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Leaves other Wi-Fi networks during CarPlay so the radio stays on the hotspot."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Fixes Bluetooth using about a full CPU core after a session on rootful devices."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds a Settings screen behind the gear button with Cars, Hotspot, Sound, Display, Troubleshooting, and About."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Sound plays from your iPhone by default again. Turn on Play Sound on This iPad in Settings to route CarPlay audio to the receiver."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Shows each connection step while your iPhone connects."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Sizes the screen stream's TCP window like Apple's receiver, so older Wi-Fi chips stop discarding video bursts."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Sends touch reports at voice priority on the hotspot link."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds Dock on the Right, Prefer Smooth Video, and Start CarPlay Automatically."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 beta 3-1"

@@ -1,6 +1,6 @@
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta1-1
+Version: 1.0~beta2
 Architecture: iphoneos-arm
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -12,17 +12,18 @@ Depiction: https://aminerostane.com/repo/depictions/share.html
 SileoDepiction: https://aminerostane.com/repo/depictions/share.json
 Description: Personal Hotspot without a SIM.
  Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.
+ Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta1-1_iphoneos-arm.deb
-Size: 28326
-MD5sum: 65b2b0bc449a2388263934944e8cd278
-SHA1: ebcdea62a0e07e82b50e9991859fb522a571f9e7
-SHA256: fdb364eda9344e891f9360c7d903057110b0f7970f2f63d1db3f9364bab6b292
+Filename: debs/com.rostane.share_1.0~beta2_iphoneos-arm.deb
+Size: 33522
+MD5sum: 8f07cdf0ba7663a51e75805b187c3a5f
+SHA1: 54033b81883aa280c3406503bf9003c89b44b3a1
+SHA256: f6542834d2fa5c255809613f44dcdfc6655d896ba882ca24893c6066a9e5ca4f
 
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta1-1
+Version: 1.0~beta2
 Architecture: iphoneos-arm64
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -34,13 +35,14 @@ Depiction: https://aminerostane.com/repo/depictions/share.html
 SileoDepiction: https://aminerostane.com/repo/depictions/share.json
 Description: Personal Hotspot without a SIM.
  Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.
+ Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta1-1_iphoneos-arm64.deb
-Size: 28370
-MD5sum: be77820e3422ddda73bff7be6819f236
-SHA1: 23b9def94cd974c64b9ca5409d87ebbdd9cf2baa
-SHA256: fc72ddca0265af0bad90a042f0e9b4d9a694cd6ee83be8067385dc728533f979
+Filename: debs/com.rostane.share_1.0~beta2_iphoneos-arm64.deb
+Size: 33576
+MD5sum: 9cd953055cee502ab9b965f8e6784a12
+SHA1: cf85101c4d94832897b72bd91851acb1c2604fd6
+SHA256: 3576ad2c9d75f24d51b1298ae64e9418f3b7fe3cb1ba22562c2656233af12e77
 
 Package: com.rostane.showcase
 Name: Showcase (Rootful)

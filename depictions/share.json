@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM.\n\nInstall it, open Settings and you should see Personal Hotspot available.\n\n5 GHz automatically on supported hardware."
+          "markdown": "Share gives a jailbroken iPhone or iPad Personal Hotspot without a SIM. Wi-Fi-only iPads work too.\n\nInstall it, open Settings and you should see Personal Hotspot available.\n\n5 GHz automatically on supported hardware."
         },
         {
           "class": "DepictionTableTextView",
@@ -32,6 +32,14 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Wi-Fi-only iPads: Personal Hotspot now shows up in Settings and turns on.\n- Personal Hotspot no longer turns itself off when cellular data reads as off."
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 Beta 1"

@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixes Settings crashing on Wi-Fi-only iPads with an A12 chip or newer.\n- Fixes Wi-Fi-only iPads that stayed stuck after Beta 1.\n- No more false error reports on iOS 14."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2"
         },
         {

@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixes Personal Hotspot missing from Settings on freshly restored Wi-Fi-only iPads running iOS 12."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-1"
         },
         {

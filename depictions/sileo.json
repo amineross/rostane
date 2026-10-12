@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Open Showcase while the receiver still has internet access. Showcase prepares BAA authentication before Personal Hotspot starts."
+          "markdown": "Showcase needs internet to prepare CarPlay authentication. It stays ready across launches for up to 12 hours."
         },
         {
           "class": "DepictionMarkdownView",
@@ -77,6 +77,38 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 4-2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Reconnects to your iPhone by itself, like a car. Open Showcase and CarPlay comes back without touching the iPhone."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Starts CarPlay when you open Showcase. You can turn this off in Settings."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Stops cleanly and waits for your iPhone when it leaves or turns off Wi-Fi, instead of freezing on the last frame."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Rootless: keeps the Bluetooth pairing after a reboot, so you no longer need to forget the car on the iPhone."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Relaunching no longer asks for internet, Try Again works, and Showcase retries when the network comes back."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Opens without the long black screen."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Warns when the hotspot name you entered doesn't match the device name."
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 Beta 4"

@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Shows Personal Hotspot in Settings on Wi-Fi-only iPads running iOS 18.\n- Keeps /var/mobile/Library/Share/status.json up to date, so you can check that Share is running."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-2"
         },
         {

@@ -31,9 +31,8 @@
     by default. Enable them in Settings, under Troubleshooting, only when collecting a report.
   </p>
   <p>
-    Showcase prepares the Apple authentication certificate before Personal
-    Hotspot starts. Open Showcase while the receiver still has internet
-    access and wait for the Start button.
+    Showcase needs internet to prepare CarPlay authentication. It stays
+    ready across launches for up to 12 hours.
   </p>
   <p>
     Tap with three fingers during CarPlay to reveal the stop and settings
@@ -41,6 +40,17 @@
   </p>
 
   <h2>Changelog</h2>
+  <h3>1.0 Beta 4-2</h3>
+  <ul>
+    <li>Reconnects to your iPhone by itself, like a car. Open Showcase and CarPlay comes back without touching the iPhone.</li>
+    <li>Starts CarPlay when you open Showcase. You can turn this off in Settings.</li>
+    <li>Stops cleanly and waits for your iPhone when it leaves or turns off Wi-Fi, instead of freezing on the last frame.</li>
+    <li>Rootless: keeps the Bluetooth pairing after a reboot, so you no longer need to forget the car on the iPhone.</li>
+    <li>Relaunching no longer asks for internet, Try Again works, and Showcase retries when the network comes back.</li>
+    <li>Opens without the long black screen.</li>
+    <li>Warns when the hotspot name you entered doesn&#39;t match the device name.</li>
+  </ul>
+
   <h3>1.0 Beta 4</h3>
   <ul>
     <li>Starts Personal Hotspot by itself. If iOS refuses, Showcase asks you to turn it on in Settings.</li>

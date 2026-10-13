@@ -1,6 +1,6 @@
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta2-3
+Version: 1.0~beta2-4
 Architecture: iphoneos-arm
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -15,15 +15,15 @@ Description: Personal Hotspot without a SIM.
  Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta2-3_iphoneos-arm.deb
-Size: 38432
-MD5sum: e91c45ccafda994ee8d763c2b6e0ca31
-SHA1: 6d94b05ef4e94a5136df8813efe76e2a7673b3bc
-SHA256: 0b2712d5cecdbef506c2db5535fce327938c3b4f985d958f62d62757d85d6f05
+Filename: debs/com.rostane.share_1.0~beta2-4_iphoneos-arm.deb
+Size: 39606
+MD5sum: a1b68ec972e696f4fb85e492fbc2f94f
+SHA1: 7a53f9da72eea0ffd0cf55561df96590c4ef8605
+SHA256: eea0fcae0450cae603930e3abb948962cc19946cd56f2a5ce7b5da2dec85c1b2
 
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta2-3
+Version: 1.0~beta2-4
 Architecture: iphoneos-arm64
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -38,15 +38,15 @@ Description: Personal Hotspot without a SIM.
  Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta2-3_iphoneos-arm64.deb
-Size: 38482
-MD5sum: 6ea55b1b12bfb46390bd9f2cbd77d0ee
-SHA1: a676893274410343a25b65b828bff63bf4b733b9
-SHA256: bf60b7f85aa1dc5c835033d36527fd2617547ff6631138e9de5d74bf821801c2
+Filename: debs/com.rostane.share_1.0~beta2-4_iphoneos-arm64.deb
+Size: 39654
+MD5sum: 7be4d782815814ecf13d9ae5cae59100
+SHA1: 6627bac3a08c405def0cb2ecebe1172fd3face32
+SHA256: 6564ea10a1783a7b9ccd34c1bfa2559f78e220aa37aee709c634a8a56c39d72f
 
 Package: com.rostane.showcase
 Name: Showcase (Rootful)
-Version: 1.0~beta4-2
+Version: 1.0~beta4-3
 Architecture: iphoneos-arm
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -62,17 +62,16 @@ Description: Wireless CarPlay receiver for rootful jailbreaks.
  Showcase turns a jailbroken iPhone or iPad into a wireless CarPlay
  receiver. This package uses the rootful layout and supports iOS 12 or newer.
  .
- Beta 4 brings cleaner screens, a tappable sound picker and automatic
- Personal Hotspot.
-Filename: debs/com.rostane.showcase_1.0~beta4-2_iphoneos-arm.deb
-Size: 1847512
-MD5sum: feda77b55f6d7dae8b4fe3a946f17d89
-SHA1: 37b314ae00b604f796183c5c55a2c0507b0709af
-SHA256: eaeb27a81585ab757807590d8f8a6c1fdee11cfddce7c8cb66a880be1a10eadf
+ Beta 4-3 fixes the false hotspot name warning on iOS 16 and newer.
+Filename: debs/com.rostane.showcase_1.0~beta4-3_iphoneos-arm.deb
+Size: 1847854
+MD5sum: 705865f2b32b0d0995bfc93d468bddc6
+SHA1: c8d10af4cc38def0aa5f86dd993e42520f5a6923
+SHA256: 10cca245b92c09979b97c307fed36a39e3f7228a5b563259a069abdb1c5949a2
 
 Package: com.rostane.showcase
 Name: Showcase (Rootless)
-Version: 1.0~beta4-2
+Version: 1.0~beta4-3
 Architecture: iphoneos-arm64
 Section: Utilities
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -89,10 +88,9 @@ Description: Wireless CarPlay receiver for rootless jailbreaks.
  receiver. This package uses the rootless layout under /var/jb and supports
  iOS 12 or newer.
  .
- Beta 4 brings cleaner screens, a tappable sound picker and automatic
- Personal Hotspot.
-Filename: debs/com.rostane.showcase_1.0~beta4-2_iphoneos-arm64.deb
-Size: 1781770
-MD5sum: c806565ad329113db4c2ad423046ad20
-SHA1: a0dfec71d1cf5a095260d80651b0a2a68578e145
-SHA256: b77240bcaa183630181279bf0cea75f5ede51da6d13112fce2e53f9ebc781c28
+ Beta 4-3 fixes the false hotspot name warning on iOS 16 and newer.
+Filename: debs/com.rostane.showcase_1.0~beta4-3_iphoneos-arm64.deb
+Size: 1782148
+MD5sum: 494b8aa9df630ccdaa624fbbd47e4944
+SHA1: 37d356b39e8f964fc1a99884b6772bc9691463a6
+SHA256: 6314c00035719af2c628e83ace72cc7e637b6cade687151cdc2155cdf2d014b9

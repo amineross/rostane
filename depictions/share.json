@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-4"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixes Personal Hotspot still missing from Settings on Wi-Fi-only iPads running iOS 18.\n- Stops the Cellular Data menu from appearing on those iPads."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-3"
         },
         {

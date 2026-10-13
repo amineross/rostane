@@ -79,6 +79,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 4-3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Fixes the false hotspot name warning on iOS 16 and newer."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 4-2"
         },
         {

@@ -79,6 +79,26 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 5"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Settings > Display has a resolution picker that follows your screen's shape, like on a Mac, and a 30 or 60 fps choice."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Prioritize Quality streams the largest resolution at 60 fps. Prioritize Performance replaces Prefer Smooth Video and keeps your setting."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Showcase now speaks French, Spanish, Simplified Chinese and Japanese. It follows your device's language; Settings > Language picks another."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Taurine users on iOS 14: install Showcase for Taurine instead. It replaces this package."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 4-3"
         },
         {

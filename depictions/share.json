@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-5"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Supports cellular iPhones and iPads without a SIM: the hotspot no longer waits for a carrier, and iOS 12 no longer stops with error 45. Thanks to @t-klinger-cmd for the iPad mini 2 fix.\n- Shows Personal Hotspot in Settings on those devices, like on Wi-Fi-only iPads."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-4"
         },
         {

@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-6"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixes Personal Hotspot staying greyed out on Amethyst. Amethyst ships the Sonar tweak loader, and Share failed to hook misd with it."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-5"
         },
         {

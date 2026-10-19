@@ -70,6 +70,10 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "Tap with three fingers during CarPlay to reveal the stop and settings controls. Tap anywhere to return to CarPlay."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Showcase reports anonymous usage: a random ID, your device model, iOS version, jailbreak, Showcase version, package, language and country. It never sends your name, Apple ID, serial number or IP address. Settings > Anonymous Usage shows each value and turns any of them off. The server code is in the repository under telemetry/."
         }
       ]
     },
@@ -77,6 +81,22 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 5-2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Turns on Prioritize Quality once for everyone, including existing setups. Turn it off in Settings > Display and it stays off."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds a star button on the home screen that links to the GitHub repository."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds anonymous usage reporting, on by default. Settings > Anonymous Usage turns it off or turns off single items."
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 Beta 5"

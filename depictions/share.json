@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-7"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixes Personal Hotspot coming back on after a reboot with no network on devices without a SIM, which left Showcase asking you to turn it on."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-6"
         },
         {

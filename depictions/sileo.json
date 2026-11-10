@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Showcase needs internet to prepare CarPlay authentication. It stays ready across launches for up to 12 hours."
+          "markdown": "Showcase needs internet once to prepare CarPlay authentication. After that it works offline for about a year."
         },
         {
           "class": "DepictionMarkdownView",
@@ -81,6 +81,42 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0 Beta 5-3"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Works with iPhones on iOS 27. Thanks @techdepanneur."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Needs internet once, then works offline for about a year."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Bluetooth starts about 7 seconds sooner."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Network Capture waits for the hotspot instead of saying tcpdump is missing."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Keeps settings that iOS forgot after a relaunch."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Prioritize Quality goes back off on iPad Air 1 and iPad mini 2 and 3."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Speaks Turkish. Thanks @inckerem."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Send Logs includes Share's state and the Wi-Fi log."
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.0 Beta 5-2"

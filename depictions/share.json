@@ -34,6 +34,14 @@
       "views": [
         {
           "class": "DepictionHeaderView",
+          "title": "1.0 Beta 2-8"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Switches to 2.4 GHz when the hotspot can't start on 5 GHz.\n- Works with a SIM that has no service.\n- Works on carriers that give IPv6-only data."
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "1.0 Beta 2-7"
         },
         {

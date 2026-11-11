@@ -1,6 +1,6 @@
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta2-8
+Version: 1.0~beta2-8.1
 Architecture: iphoneos-arm
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -15,15 +15,15 @@ Description: Personal Hotspot without a SIM.
  Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta2-8_iphoneos-arm.deb
-Size: 44286
-MD5sum: 2f5ea0dc136619328402dfacc9360225
-SHA1: 77f0d00cdd448c33285718cf92a64af1fa966aee
-SHA256: 7c21f37f22aedb6b99c196a2dfeae4c4e6d8f1b1c828e26dc360ea700f3e11b7
+Filename: debs/com.rostane.share_1.0~beta2-8.1_iphoneos-arm.deb
+Size: 44376
+MD5sum: f3704b9b9a7d972ad9c6f3b66343e053
+SHA1: 80d2fe7b89c9f689fbf339936c9ae7db6acf86fb
+SHA256: db589936edb793c1057d5ac3bfaa5630069046492c92093341aa491c8221e20e
 
 Package: com.rostane.share
 Name: Share
-Version: 1.0~beta2-8
+Version: 1.0~beta2-8.1
 Architecture: iphoneos-arm64
 Section: Tweaks
 Maintainer: Amine Rostane <amine.rostane@outlook.com>
@@ -38,11 +38,11 @@ Description: Personal Hotspot without a SIM.
  Wi-Fi-only iPads work too.
  Install it, open Settings and you should see Personal Hotspot available.
  5 GHz automatically on supported hardware.
-Filename: debs/com.rostane.share_1.0~beta2-8_iphoneos-arm64.deb
-Size: 44338
-MD5sum: 9457bc81051ae3343c96d4e4b6ccec5e
-SHA1: 7248d532dd7354de949846ce07a90669b26002da
-SHA256: e373260eb0f1938544d7554153bae5f45776b48b6a36e34c7b438a4fc0dfe7ea
+Filename: debs/com.rostane.share_1.0~beta2-8.1_iphoneos-arm64.deb
+Size: 44422
+MD5sum: f546d3f7b0b5c24624b09a80dc883718
+SHA1: 963dc477a2a1cc54354c2d968a11bc326be5b2a8
+SHA256: 712696440f283940bb458238662ef41aac97f8c7203e4d1b9cb9f64551b94a3e
 
 Package: com.rostane.showcase-taurine
 Name: Showcase for Taurine
